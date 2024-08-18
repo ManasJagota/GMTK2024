@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5819759652951349493}
   - component: {fileID: 6049015271520626648}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2597734965882618808}
   - component: {fileID: 6229301458745977347}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (13)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4203403510508710869}
   - component: {fileID: 3918437663129350892}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2625389753501929236}
   - component: {fileID: 6765759340852115001}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6715235433960444491}
   - component: {fileID: 6327292070353935625}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2427894790817897317}
   - component: {fileID: 5740612004641221520}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (15)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -514,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4619768488858968468}
   - component: {fileID: 158907859864416175}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2949802484612687725}
   - component: {fileID: 3974364045767397656}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -683,7 +683,7 @@ GameObject:
   - component: {fileID: 4300265458088834961}
   - component: {fileID: 7216518622194654682}
   - component: {fileID: 7090616780479751807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -803,7 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5670960211846813083}
   - component: {fileID: 6223847822934114817}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -887,7 +887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5747645794972723304}
   - component: {fileID: 4824767393045318853}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -971,7 +971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5803505821872449963}
   - component: {fileID: 1783528247861865613}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (14)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1055,7 +1055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4827803358187731635}
   - component: {fileID: 5486941859978623555}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1139,7 +1139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8092511212721123474}
   - component: {fileID: 6548443898456706053}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1223,7 +1223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6460678507931483474}
   - component: {fileID: 671690868794309616}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1307,7 +1307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1137686188007593408}
   - component: {fileID: 6761840683686425749}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1391,7 +1391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6219405504984355860}
   - component: {fileID: 391883556678312309}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}

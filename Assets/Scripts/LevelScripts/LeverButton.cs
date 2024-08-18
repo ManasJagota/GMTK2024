@@ -1,3 +1,4 @@
+using Com.LuisPedroFonseca.ProCamera2D;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,17 +9,25 @@ public class LeverButton : MonoBehaviour
     [SerializeField] ELeverButtonType m_LeverButtonType;
 
     [SerializeField] GameObject m_GOLeverActionToPerformOn;
+    [SerializeField] List<ProCamera2DShake> m_ShakeCamList;
+    private int m_count = 0;
 
     private void OnCollisionEnter2D(Collision2D a_other)
     {
         if (a_other.transform.CompareTag("Player"))
         {
-            if (m_LeverButtonType.Equals(ELeverButtonType.Enable))
-                m_GOLeverActionToPerformOn.SetActive(true);
-            else if (m_LeverButtonType.Equals(ELeverButtonType.Disable))
-                m_GOLeverActionToPerformOn.SetActive(false);
-            else if(m_LeverButtonType.Equals(ELeverButtonType.PlatformMove))
-                m_GOLeverActionToPerformOn.GetComponent<WaypointMover>().enabled = true;
+            if (m_count == 0)
+            {
+                m_count = 1;
+                if (m_LeverButtonType.Equals(ELeverButtonType.Enable))
+                    m_GOLeverActionToPerformOn.SetActive(true);
+                else if (m_LeverButtonType.Equals(ELeverButtonType.Disable))
+                    m_GOLeverActionToPerformOn.SetActive(false);
+                else if (m_LeverButtonType.Equals(ELeverButtonType.PlatformMove))
+                    m_GOLeverActionToPerformOn.GetComponent<WaypointMover>().enabled = true;
+                foreach (ProCamera2DShake Cam in m_ShakeCamList)
+                    Cam.Shake(Cam.ShakePresets[0]);
+            }
         }
     }
 }

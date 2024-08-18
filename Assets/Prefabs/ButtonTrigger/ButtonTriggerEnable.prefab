@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5252876491688130792}
   - component: {fileID: 8431092040097929717}
   - component: {fileID: 76857175041749123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ButtonTriggerEnable
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -145,3 +145,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LeverButtonType: 0
   m_GOLeverActionToPerformOn: {fileID: 0}
+  m_ShakeCamList: []

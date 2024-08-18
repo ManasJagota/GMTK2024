@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1269325384504992296}
   - component: {fileID: 9188324633532377369}
   - component: {fileID: 8912339191032254265}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MissionCOmplete_Large
   m_TagString: MissionComplete_Large
   m_Icon: {fileID: 0}

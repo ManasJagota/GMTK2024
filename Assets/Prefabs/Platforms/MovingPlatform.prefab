@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4203403510508710869}
   - component: {fileID: 3918437663129350892}
   - component: {fileID: 2916982647232478298}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (2)
   m_TagString: MovingPlatform
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 6715235433960444491}
   - component: {fileID: 6327292070353935625}
   - component: {fileID: 327057811518225864}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform
   m_TagString: MovingPlatform
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 7216518622194654682}
   - component: {fileID: 7600015738687890509}
   - component: {fileID: 7090616780479751807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform
   m_TagString: MovingPlatform
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 5747645794972723304}
   - component: {fileID: 4824767393045318853}
   - component: {fileID: 5197191898160287162}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (1)
   m_TagString: MovingPlatform
   m_Icon: {fileID: 0}
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 1137686188007593408}
   - component: {fileID: 6761840683686425749}
   - component: {fileID: 7754481543492295366}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (3)
   m_TagString: MovingPlatform
   m_Icon: {fileID: 0}

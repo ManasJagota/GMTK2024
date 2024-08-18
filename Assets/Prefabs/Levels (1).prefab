@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4308516034662881494}
   - component: {fileID: 5612256756173047487}
   - component: {fileID: 1133025453996366060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 553451760201404652}
   - component: {fileID: 3444752837650382544}
   - component: {fileID: 8708114883085759138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Levels (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

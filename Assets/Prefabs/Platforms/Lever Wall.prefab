@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6410531104456821625}
   - component: {fileID: 1819094510315873308}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6804535990548350485}
   - component: {fileID: 2541812332127320259}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (14)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9051930481347720244}
   - component: {fileID: 7374496410134633755}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3042499362297038849}
   - component: {fileID: 3385193664039055150}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7202311327309652186}
   - component: {fileID: 3895291648898464892}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698092020230003922}
   - component: {fileID: 4288058876665069964}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (13)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -514,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5027639365054897394}
   - component: {fileID: 6706296117373753818}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2773142910503505716}
   - component: {fileID: 287533566397093375}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (15)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -682,7 +682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5399941413590677413}
   - component: {fileID: 2785089608131391453}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4848255841664689527}
   - component: {fileID: 6650548305197412707}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -850,7 +850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028138944865542497}
   - component: {fileID: 3496394328717478741}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -934,7 +934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8381219974960744594}
   - component: {fileID: 342424137707906402}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1018,7 +1018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247585244511910636}
   - component: {fileID: 7173875319691439684}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (16)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1102,7 +1102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7948679912452994773}
   - component: {fileID: 5168135075407800619}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1186,7 +1186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3175927375361040206}
   - component: {fileID: 6936339819136808393}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1270,7 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7696715942928594470}
   - component: {fileID: 4053200579519092787}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: MovingPlatform (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1418,7 +1418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Name
-      value: Walls (4) Variant
+      value: Lever Wall
       objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
