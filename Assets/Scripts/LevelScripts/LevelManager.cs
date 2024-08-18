@@ -55,7 +55,8 @@ public class LevelManager : MonoBehaviour
         }
         Debug.Log("Mission Accomplished!");
         UIManager.ShowMissionCompleteUI();
-        Time.timeScale = 0;
+        foreach(CharacterController character in CharacterList)
+            character.gameObject.SetActive(false);
         instance.StartCoroutine(instance.WaitToLoadNextScene());
     }
 
