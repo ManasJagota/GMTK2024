@@ -4266,6 +4266,7 @@ PrefabInstance:
     - {fileID: 8298906424336543825, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     - {fileID: 4990057597852206014, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     - {fileID: 9161418685954637633, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+    - {fileID: 4258545141314394152, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3362273868874182046, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       insertIndex: -1
@@ -29666,6 +29667,7 @@ PrefabInstance:
     - {fileID: 8298906424336543825, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     - {fileID: 4990057597852206014, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     - {fileID: 9161418685954637633, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+    - {fileID: 4258545141314394152, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3362273868874182046, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       insertIndex: -1
@@ -40752,6 +40754,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 147ad97b79841f64aab37b63239cd8e9, type: 3}
+    - target: {fileID: 7455709621142534028, guid: 83839fa3423277a4cb920052030d24dd, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455709621142534028, guid: 83839fa3423277a4cb920052030d24dd, type: 3}
+      propertyPath: m_Size.y
+      value: 19.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455709621142534028, guid: 83839fa3423277a4cb920052030d24dd, type: 3}
+      propertyPath: m_Offset.x
+      value: -2.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455709621142534028, guid: 83839fa3423277a4cb920052030d24dd, type: 3}
+      propertyPath: m_Offset.y
+      value: 6.38
+      objectReference: {fileID: 0}
     - target: {fileID: 8595302755018049400, guid: 83839fa3423277a4cb920052030d24dd, type: 3}
       propertyPath: m_Name
       value: Lever Wall
