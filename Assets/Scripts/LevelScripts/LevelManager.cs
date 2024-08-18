@@ -24,6 +24,7 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         UIManager.ShowLevelUI();
+        PlayerPrefs.SetFloat(SceneChange.GetCurrentLevel() + "Unlocked", 1);
     }
 
     private void OnDisable()

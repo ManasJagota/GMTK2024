@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1914106104025774368, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
       propertyPath: m_TagString
-      value: Walls
+      value: Platform
       objectReference: {fileID: 0}
     - target: {fileID: 2458620559261050788, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
       propertyPath: m_Size.x
