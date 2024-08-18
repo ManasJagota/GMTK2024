@@ -21,6 +21,17 @@ public class LevelManager : MonoBehaviour
         instance = this;
     }
 
+    private void Start()
+    {
+        UIManager.ShowLevelUI();
+    }
+
+    private void OnDisable()
+    {
+        if(UIManager.instance != null)
+            UIManager.HideLevelUI();
+    }
+
     private void OnDestroy()
     {
         instance = null;
@@ -28,8 +39,11 @@ public class LevelManager : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
+        {
             SceneChange.ReloadScene();
+            UIManager.HideMissionFailUI();
+        }
     }
 
     public static void CheckIfMissionCompleted()
@@ -40,6 +54,7 @@ public class LevelManager : MonoBehaviour
                 return;
         }
         Debug.Log("Mission Accomplished!");
+        UIManager.ShowMissionCompleteUI();
         Time.timeScale = 0;
         instance.StartCoroutine(instance.WaitToLoadNextScene());
     }
@@ -47,6 +62,7 @@ public class LevelManager : MonoBehaviour
     IEnumerator WaitToLoadNextScene()
     {
         yield return new WaitForSeconds(3);
+        UIManager.HideMissionCompleteUI();
         SceneChange.LoadNextScene();
     }
 }

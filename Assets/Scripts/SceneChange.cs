@@ -12,13 +12,17 @@ public class SceneChange : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        DontDestroyOnLoad(gameObject);
     }
     private void OnDestroy()
     {
         instance = null;
     }
     
+    public static string GetCurrentLevel()
+    {
+        return SceneManager.GetActiveScene().name;
+    }
+
     public static void LoadNextScene()
     {
         Time.timeScale = 1;
