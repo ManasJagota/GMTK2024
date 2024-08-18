@@ -47,11 +47,11 @@ MonoBehaviour:
   m_changeSizeKey: 102
   SizeStateList:
   - SizeState: 0
-    Speed: 5
+    Speed: 7
     Jump: 270
     Size: 0.5
   - SizeState: 1
-    Speed: 10
+    Speed: 6
     Jump: 470
     Size: 2
   m_characterList:
