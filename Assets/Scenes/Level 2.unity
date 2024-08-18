@@ -11172,6 +11172,7 @@ PrefabInstance:
     - {fileID: 8298906424336543825, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     - {fileID: 4990057597852206014, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     - {fileID: 9161418685954637633, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+    - {fileID: 4258545141314394152, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3362273868874182046, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       insertIndex: -1
@@ -16628,6 +16629,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8ada5548e3ce71a49bc827213a604f15, type: 3}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Size.x
+      value: 4.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Size.y
+      value: 15.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Offset.y
+      value: 4.45
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6676135916422235675, guid: e9904beae75922a41ba889d48b321957, type: 3}
@@ -25238,6 +25255,7 @@ PrefabInstance:
     - {fileID: 8298906424336543825, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     - {fileID: 4990057597852206014, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     - {fileID: 9161418685954637633, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+    - {fileID: 4258545141314394152, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3362273868874182046, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       insertIndex: -1
