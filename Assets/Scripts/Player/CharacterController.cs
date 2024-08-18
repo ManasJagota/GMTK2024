@@ -58,7 +58,7 @@ public class CharacterController : MonoBehaviour
             if(m_isGrounded == true)
                 m_currentState = EState.Moving;
         }
-        if (Input.GetButtonDown("Jump") && m_currentState != EState.Jumping)
+        if (Input.GetButtonDown("Jump") && m_currentState != EState.Jumping && m_isGrounded)
         {
             Debug.Log("State on Jump : " + m_currentState);
             m_isGrounded = false;
@@ -93,6 +93,10 @@ public class CharacterController : MonoBehaviour
         {
             if(transform.parent.gameObject.activeSelf)
                 transform.parent = null;
+        }
+        if (m_Grounds.Exists(ground => other.transform.CompareTag(ground)))
+        {
+            m_isGrounded = false;
         }
     }
 

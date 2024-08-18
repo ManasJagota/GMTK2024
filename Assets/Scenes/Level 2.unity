@@ -1050,6 +1050,7 @@ GameObject:
   - component: {fileID: 29593700}
   - component: {fileID: 29593699}
   - component: {fileID: 29593698}
+  - component: {fileID: 29593701}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -1158,6 +1159,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 53113474}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &29593701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29593697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6903f12ac8ae44a41ba2a44700ec60ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pc2D: {fileID: 29593698}
+  _serializedAxis: 0
+  UseNumericBoundaries: 1
+  UseTopBoundary: 0
+  TopBoundary: 10
+  TargetTopBoundary: 0
+  UseBottomBoundary: 1
+  BottomBoundary: -6.5
+  TargetBottomBoundary: 0
+  UseLeftBoundary: 1
+  LeftBoundary: -25
+  TargetLeftBoundary: 0
+  UseRightBoundary: 1
+  RightBoundary: 43.9
+  TargetRightBoundary: 0
+  IsCameraPositionHorizontallyBounded: 0
+  IsCameraPositionVerticallyBounded: 0
+  CurrentBoundariesTrigger: {fileID: 0}
+  HasFiredTransitionStarted: 0
+  HasFiredTransitionFinished: 0
+  UseSoftBoundaries: 1
+  Softness: 0.5
+  SoftAreaSize: 0.1
+  UseBoundaryDelayOnEnterScene: 0
+  BoundaryDelayFrames: 10
 --- !u!1 &29661312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4304,6 +4342,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 252900890}
     m_Modifications:
+    - target: {fileID: 765861977262967252, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6690657
+      objectReference: {fileID: 0}
+    - target: {fileID: 765861977262967252, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.54645383
+      objectReference: {fileID: 0}
     - target: {fileID: 1439134630869554078, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.81
@@ -4314,19 +4360,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2458620559261050788, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
       propertyPath: m_Size.x
-      value: 4
+      value: 4.0179977
       objectReference: {fileID: 0}
     - target: {fileID: 2458620559261050788, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
       propertyPath: m_Size.y
-      value: 4
+      value: 0.87518954
       objectReference: {fileID: 0}
     - target: {fileID: 2458620559261050788, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
       propertyPath: m_Offset.x
-      value: -0.98
+      value: -0.9889991
       objectReference: {fileID: 0}
     - target: {fileID: 2458620559261050788, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
       propertyPath: m_Offset.y
-      value: -0.34
+      value: 1.2224051
       objectReference: {fileID: 0}
     - target: {fileID: 9049248473103797743, guid: 4fe5ab2db7385424aba0a736fde538bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9008,6 +9054,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9124,6 +9171,43 @@ MonoBehaviour:
   IsCameraPositionTopBounded: 0
   IsCameraPositionBottomBounded: 0
   GameCamera: {fileID: 519420031}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6903f12ac8ae44a41ba2a44700ec60ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pc2D: {fileID: 519420033}
+  _serializedAxis: 0
+  UseNumericBoundaries: 1
+  UseTopBoundary: 0
+  TopBoundary: 10
+  TargetTopBoundary: 0
+  UseBottomBoundary: 1
+  BottomBoundary: -6.5
+  TargetBottomBoundary: 0
+  UseLeftBoundary: 1
+  LeftBoundary: -25
+  TargetLeftBoundary: 0
+  UseRightBoundary: 1
+  RightBoundary: 54.7
+  TargetRightBoundary: 0
+  IsCameraPositionHorizontallyBounded: 0
+  IsCameraPositionVerticallyBounded: 0
+  CurrentBoundariesTrigger: {fileID: 0}
+  HasFiredTransitionStarted: 0
+  HasFiredTransitionFinished: 0
+  UseSoftBoundaries: 1
+  Softness: 0.5
+  SoftAreaSize: 0.1
+  UseBoundaryDelayOnEnterScene: 0
+  BoundaryDelayFrames: 10
 --- !u!1 &521515302
 GameObject:
   m_ObjectHideFlags: 0
