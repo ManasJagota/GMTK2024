@@ -171,14 +171,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 637f054bfd6f1804bba19a173e5adabb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_speed: 10
-  m_jump: 350
+  m_speed: 5
+  m_jump: 470
   m_Grounds:
   - Ground
   - MovingPlatform
   - TriggerPoint
   - Platform
-  m_EnemyTags: []
+  m_EnemyTags:
+  - Obstacle
   m_movingPlatformTag: MovingPlatform
   m_currentSizeState: 1
   m_isGrounded: 0

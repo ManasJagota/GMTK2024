@@ -48,12 +48,13 @@ MonoBehaviour:
   SizeStateList:
   - SizeState: 0
     Speed: 5
-    Jump: 250
+    Jump: 270
     Size: 0.5
   - SizeState: 1
     Speed: 10
-    Jump: 350
+    Jump: 470
     Size: 2
   m_characterList:
   - {fileID: 0}
   - {fileID: 0}
+  m_changeSizeTimer: 2
