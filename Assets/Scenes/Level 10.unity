@@ -1244,6 +1244,7 @@ GameObject:
   - component: {fileID: 29593698}
   - component: {fileID: 29593701}
   - component: {fileID: 29593702}
+  - component: {fileID: 29593703}
   m_Layer: 6
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -1375,7 +1376,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1415,15 +1416,15 @@ MonoBehaviour:
   TopBoundary: 10
   TargetTopBoundary: 0
   UseBottomBoundary: 1
-  BottomBoundary: -29.41
+  BottomBoundary: -27
   TargetBottomBoundary: 0
   UseLeftBoundary: 1
-  LeftBoundary: -24.8
+  LeftBoundary: -30.6
   TargetLeftBoundary: 0
   UseRightBoundary: 1
-  RightBoundary: 10.5
+  RightBoundary: -5.6
   TargetRightBoundary: 0
-  IsCameraPositionHorizontallyBounded: 1
+  IsCameraPositionHorizontallyBounded: 0
   IsCameraPositionVerticallyBounded: 0
   CurrentBoundariesTrigger: {fileID: 0}
   HasFiredTransitionStarted: 0
@@ -1433,6 +1434,25 @@ MonoBehaviour:
   SoftAreaSize: 0.1
   UseBoundaryDelayOnEnterScene: 0
   BoundaryDelayFrames: 10
+--- !u!114 &29593703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29593697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac0ec3d6ad5f4a3d9d184bc3773a3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pc2D: {fileID: 29593698}
+  _serializedAxis: 0
+  ShakePresets:
+  - {fileID: 11400000, guid: bdeb758c7bbd24b29bc19493062ef65e, type: 2}
+  ConstantShakePresets: []
+  StartConstantShakePreset: {fileID: 0}
+  CurrentConstantShakePreset: {fileID: 0}
 --- !u!1 &29661312
 GameObject:
   m_ObjectHideFlags: 0
@@ -3082,63 +3102,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &80438624
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3529574642490748904, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_Name
-      value: Global Volume
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 960
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 540
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7104215794495455664, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f90bacbea103ee3488c6e923c9f490ad, type: 3}
 --- !u!1001 &81371443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13700,6 +13663,7 @@ GameObject:
   - component: {fileID: 437782037}
   - component: {fileID: 437782036}
   - component: {fileID: 437782035}
+  - component: {fileID: 437782040}
   m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -13744,10 +13708,10 @@ MonoBehaviour:
   BottomBoundary: -27
   TargetBottomBoundary: 0
   UseLeftBoundary: 1
-  LeftBoundary: -30.82
+  LeftBoundary: -30.6
   TargetLeftBoundary: 0
   UseRightBoundary: 1
-  RightBoundary: -4.9
+  RightBoundary: -5.6
   TargetRightBoundary: 0
   IsCameraPositionHorizontallyBounded: 0
   IsCameraPositionVerticallyBounded: 0
@@ -13782,7 +13746,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -13897,6 +13861,25 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &437782040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437782033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac0ec3d6ad5f4a3d9d184bc3773a3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pc2D: {fileID: 437782037}
+  _serializedAxis: 0
+  ShakePresets:
+  - {fileID: 11400000, guid: bdeb758c7bbd24b29bc19493062ef65e, type: 2}
+  ConstantShakePresets: []
+  StartConstantShakePreset: {fileID: 0}
+  CurrentConstantShakePreset: {fileID: 0}
 --- !u!114 &438745916 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2950382696190828141, guid: 9022065da4f849b42af7d9191d884d42, type: 3}
@@ -70266,4 +70249,3 @@ SceneRoots:
   - {fileID: 1340428613}
   - {fileID: 1880775470}
   - {fileID: 1955940679}
-  - {fileID: 80438624}
