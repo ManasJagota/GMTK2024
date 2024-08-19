@@ -2659,6 +2659,8 @@ MonoBehaviour:
   m_MissionSound: {fileID: 731378905}
   m_MissionCOmpleteclip: {fileID: 8300000, guid: 8d392fbaa6b27ee40a60c316f6783a94, type: 3}
   m_MissionFailedclip: {fileID: 8300000, guid: 72e80a128497b044391bc613e7c967bb, type: 3}
+  m_particleEffectOnVictory: {fileID: 2430389964877665948, guid: 06bae69ec6c750e4b800d334d1ec8606, type: 3}
+  m_particleEffectOnLoss: {fileID: 4174034550160221396, guid: 0c28682ce1d15474f9681e05148827c2, type: 3}
   m_ShakeCamList:
   - {fileID: 519420036}
   - {fileID: 29593703}
@@ -19228,6 +19230,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1683111863104732673, guid: 612a1916f8d87564ca51798ea585b1f0, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5639232401004398224, guid: 612a1916f8d87564ca51798ea585b1f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
