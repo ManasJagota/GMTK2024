@@ -1209,13 +1209,13 @@ MonoBehaviour:
   TopBoundary: 10
   TargetTopBoundary: 0
   UseBottomBoundary: 1
-  BottomBoundary: -27
+  BottomBoundary: -30.3
   TargetBottomBoundary: 0
   UseLeftBoundary: 1
   LeftBoundary: -24.8
   TargetLeftBoundary: 0
   UseRightBoundary: 1
-  RightBoundary: -5.6
+  RightBoundary: 9.7
   TargetRightBoundary: 0
   IsCameraPositionHorizontallyBounded: 1
   IsCameraPositionVerticallyBounded: 0

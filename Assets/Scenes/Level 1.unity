@@ -521,7 +521,7 @@ MonoBehaviour:
   LeftBoundary: -25
   TargetLeftBoundary: 0
   UseRightBoundary: 1
-  RightBoundary: 55
+  RightBoundary: 43.9
   TargetRightBoundary: 0
   IsCameraPositionHorizontallyBounded: 0
   IsCameraPositionVerticallyBounded: 0
