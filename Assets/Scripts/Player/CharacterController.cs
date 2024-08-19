@@ -87,6 +87,17 @@ public class CharacterController : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("Walls"))
+            return;
+        if (m_Grounds.Exists(ground => collision.transform.CompareTag(ground)))
+        {
+            m_currentState.Equals(EState.Idle);
+            m_isGrounded = true;
+        }
+    }
+
     void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.tag == "MovingPlatform")
