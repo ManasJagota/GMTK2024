@@ -22608,7 +22608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728311428660194032, guid: 055131ab84c233c42ab2eb58a63433e7, type: 3}
       propertyPath: m_timeToreachEndPoint
-      value: 60
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 5105188486036460982, guid: 055131ab84c233c42ab2eb58a63433e7, type: 3}
       propertyPath: m_Layer
@@ -74174,7 +74174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728311428660194032, guid: 055131ab84c233c42ab2eb58a63433e7, type: 3}
       propertyPath: m_timeToreachEndPoint
-      value: 60
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 5105188486036460982, guid: 055131ab84c233c42ab2eb58a63433e7, type: 3}
       propertyPath: m_Layer
