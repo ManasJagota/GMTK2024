@@ -10,6 +10,8 @@ public class StateManager : MonoBehaviour
     [SerializeField] List<CharacterController> m_characterList;
     [SerializeField] float m_changeSizeTimer = 2f;
 
+    [SerializeField] AudioSource m_changeStateAudio;
+
     bool m_isSizeChanged;
 
     // Update is called once per frame
@@ -49,6 +51,7 @@ public class StateManager : MonoBehaviour
                 Character.StateChanged(ChangeSizeState);
             }
         }
+        m_changeStateAudio.Play();
         StartCoroutine(StartTimerToChangeSize());
     }
 

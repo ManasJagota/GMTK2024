@@ -1557,6 +1557,7 @@ GameObject:
   - component: {fileID: 29593698}
   - component: {fileID: 29593701}
   - component: {fileID: 29593702}
+  - component: {fileID: 29593703}
   m_Layer: 6
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -1746,6 +1747,25 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &29593703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29593697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac0ec3d6ad5f4a3d9d184bc3773a3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pc2D: {fileID: 29593698}
+  _serializedAxis: 0
+  ShakePresets:
+  - {fileID: 11400000, guid: bdeb758c7bbd24b29bc19493062ef65e, type: 2}
+  ConstantShakePresets: []
+  StartConstantShakePreset: {fileID: 0}
+  CurrentConstantShakePreset: {fileID: 0}
 --- !u!1 &33318619
 GameObject:
   m_ObjectHideFlags: 0
@@ -13516,6 +13536,9 @@ MonoBehaviour:
   m_MissionSound: {fileID: 1861315573}
   m_MissionCOmpleteclip: {fileID: 8300000, guid: 8d392fbaa6b27ee40a60c316f6783a94, type: 3}
   m_MissionFailedclip: {fileID: 8300000, guid: 72e80a128497b044391bc613e7c967bb, type: 3}
+  m_ShakeCamList:
+  - {fileID: 519420036}
+  - {fileID: 29593703}
 --- !u!4 &285853489
 Transform:
   m_ObjectHideFlags: 0
@@ -24296,6 +24319,7 @@ GameObject:
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
   - component: {fileID: 519420035}
+  - component: {fileID: 519420036}
   m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -24493,6 +24517,25 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &519420036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac0ec3d6ad5f4a3d9d184bc3773a3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pc2D: {fileID: 519420033}
+  _serializedAxis: 0
+  ShakePresets:
+  - {fileID: 11400000, guid: bdeb758c7bbd24b29bc19493062ef65e, type: 2}
+  ConstantShakePresets: []
+  StartConstantShakePreset: {fileID: 0}
+  CurrentConstantShakePreset: {fileID: 0}
 --- !u!1 &522502546
 GameObject:
   m_ObjectHideFlags: 0

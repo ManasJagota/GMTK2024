@@ -84,9 +84,7 @@ public class CharacterController : MonoBehaviour
         if (m_EnemyTags.Exists(enemy => a_other.transform.CompareTag(enemy)))
         {
             m_currentState.Equals(EState.Dead);
-            UIManager.ShowMissionFailUI();
-            Time.timeScale = 0;
-            LevelManager.MissionFailed();
+            LevelManager.MissionFailed(transform.position);
             Debug.Log("MISSION FAILED!!!!");
         }
     }

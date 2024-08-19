@@ -9,7 +9,6 @@ public class LeverButton : MonoBehaviour
     [SerializeField] ELeverButtonType m_LeverButtonType;
 
     [SerializeField] GameObject m_GOLeverActionToPerformOn;
-    [SerializeField] List<ProCamera2DShake> m_ShakeCamList;
     private int m_count = 0;
 
     private void OnCollisionEnter2D(Collision2D a_other)
@@ -25,7 +24,7 @@ public class LeverButton : MonoBehaviour
                     m_GOLeverActionToPerformOn.SetActive(false);
                 else if (m_LeverButtonType.Equals(ELeverButtonType.PlatformMove))
                     m_GOLeverActionToPerformOn.GetComponent<WaypointMover>().enabled = true;
-                foreach (ProCamera2DShake Cam in m_ShakeCamList)
+                foreach (ProCamera2DShake Cam in LevelManager.instance.m_ShakeCamList)
                     Cam.Shake(Cam.ShakePresets[0]);
             }
         }

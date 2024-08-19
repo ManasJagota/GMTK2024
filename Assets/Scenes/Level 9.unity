@@ -12613,6 +12613,9 @@ MonoBehaviour:
   m_MissionSound: {fileID: 1064529077}
   m_MissionCOmpleteclip: {fileID: 8300000, guid: 8d392fbaa6b27ee40a60c316f6783a94, type: 3}
   m_MissionFailedclip: {fileID: 8300000, guid: 72e80a128497b044391bc613e7c967bb, type: 3}
+  m_ShakeCamList:
+  - {fileID: 437782040}
+  - {fileID: 29593703}
 --- !u!4 &285853489
 Transform:
   m_ObjectHideFlags: 0
