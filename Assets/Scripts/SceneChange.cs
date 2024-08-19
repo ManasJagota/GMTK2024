@@ -35,20 +35,20 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene(a_SceneName);
     }
 
-    public static async void ReloadScene()
+    public static void ReloadScene()
     {
         if (!instance.isSceneloading)
         {
             instance.isSceneloading = true;
             Time.timeScale = 1;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            await Task.Delay(5000);
-            instance.WaitBeforeLoadingScreen();
+            instance.StartCoroutine( instance.WaitBeforeLoadingScreen());
         }
     }
 
-   void WaitBeforeLoadingScreen()
+   IEnumerator WaitBeforeLoadingScreen()
     {
+        yield return new WaitForSeconds(5);
         isSceneloading = false;
     }
 }

@@ -60,8 +60,8 @@ public class LevelManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneChange.ReloadScene();
             UIManager.HideMissionFailUI();
+            SceneChange.ReloadScene();
         }
 
         if (Input.GetKeyDown(KeyCode.P) && m_canSkipLevel)

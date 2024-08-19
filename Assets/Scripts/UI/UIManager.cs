@@ -25,12 +25,6 @@ public class UIManager : MonoBehaviour
         instance = null;
     }
 
-    private void Start()
-    {
-
-    }
-
-
     public static void ShowMissionCompleteUI()
     {
         instance.m_MissionCompleteUI.SetActive(true);
