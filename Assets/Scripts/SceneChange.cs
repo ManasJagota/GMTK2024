@@ -48,7 +48,7 @@ public class SceneChange : MonoBehaviour
 
    IEnumerator WaitBeforeLoadingScreen()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         isSceneloading = false;
     }
 }
