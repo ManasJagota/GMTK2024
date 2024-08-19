@@ -7950,6 +7950,8 @@ MonoBehaviour:
   m_MissionSound: {fileID: 673496809}
   m_MissionCOmpleteclip: {fileID: 8300000, guid: 8d392fbaa6b27ee40a60c316f6783a94, type: 3}
   m_MissionFailedclip: {fileID: 8300000, guid: 72e80a128497b044391bc613e7c967bb, type: 3}
+  m_particleEffectOnVictory: {fileID: 2430389964877665948, guid: 06bae69ec6c750e4b800d334d1ec8606, type: 3}
+  m_particleEffectOnLoss: {fileID: 4174034550160221396, guid: 0c28682ce1d15474f9681e05148827c2, type: 3}
   m_ShakeCamList:
   - {fileID: 519420036}
   - {fileID: 29593703}
