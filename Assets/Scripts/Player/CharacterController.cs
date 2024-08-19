@@ -135,6 +135,26 @@ public class CharacterController : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (m_currentSizeState.Equals(ESizeState.small))
+        {
+            if (other.CompareTag(LevelManager.MissionCompletedTag_Small))
+            {
+                m_isAccomplished = true;
+                LevelManager.CheckIfMissionCompleted();
+            }
+        }
+        if (m_currentSizeState.Equals(ESizeState.large))
+        {
+            if (other.CompareTag(LevelManager.MissionCompletedTag_Large))
+            {
+                m_isAccomplished = true;
+                LevelManager.CheckIfMissionCompleted();
+            }
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("DontChangeSize"))
