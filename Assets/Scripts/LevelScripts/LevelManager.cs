@@ -1,4 +1,5 @@
 using Com.LuisPedroFonseca.ProCamera2D;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,6 +25,7 @@ public class LevelManager : MonoBehaviour
     public static string MissionCompletedTag_Large { get { return instance.m_MissionCompletedTag_Large; } set { instance.m_MissionCompletedTag_Large = value; } }
 
     public static LevelManager instance;
+    private bool m_canSkipLevel;
 
     private void Awake()
     {
@@ -33,7 +35,14 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         UIManager.ShowLevelUI();
+        StartCoroutine(DelayToSkipLevel());
         PlayerPrefs.SetFloat(SceneChange.GetCurrentLevel() + "Unlocked", 1);
+    }
+
+    IEnumerator DelayToSkipLevel()
+    {
+        yield return new WaitForSeconds(3f);
+        m_canSkipLevel = true;
     }
 
     private void OnDisable()
@@ -55,7 +64,7 @@ public class LevelManager : MonoBehaviour
             UIManager.HideMissionFailUI();
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P) && m_canSkipLevel)
             SkipLevel();
     }
 
