@@ -2224,6 +2224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Walls (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
       value: 1
@@ -5386,6 +5390,10 @@ PrefabInstance:
     - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Name
       value: Walls (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
@@ -14243,6 +14251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Walls (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
       value: 1
@@ -15326,6 +15338,10 @@ PrefabInstance:
     - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Name
       value: Walls (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
@@ -22923,6 +22939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Walls (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
       value: 1
@@ -29972,6 +29992,10 @@ PrefabInstance:
     - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Name
       value: Walls (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
@@ -42418,6 +42442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Walls (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
       value: 1
@@ -47505,6 +47533,10 @@ PrefabInstance:
     - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Name
       value: Walls (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
@@ -55287,6 +55319,10 @@ PrefabInstance:
     - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Name
       value: Walls (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308640685251303761, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8152244923520894933, guid: 815f9ce8cb5df114d8cab6239efa2a91, type: 3}
       propertyPath: m_Size.x
