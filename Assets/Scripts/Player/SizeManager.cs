@@ -66,4 +66,5 @@ public struct sizeState
     public float Speed;
     public float Jump;
     public float Size;
+    public AudioClip m_clip;
 }

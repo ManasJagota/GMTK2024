@@ -8,6 +8,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float m_speed;
     [SerializeField] private float m_jump;
     [SerializeField] List<string> m_Grounds;
+    [SerializeField] AudioSource m_jumpAudio;
 
     [SerializeField] List <string> m_EnemyTags;
     [SerializeField] string m_movingPlatformTag;
@@ -41,6 +42,7 @@ public class CharacterController : MonoBehaviour
         m_currentSizeState = a_sizeData.SizeState;
         m_speed = a_sizeData.Speed;
         m_jump = a_sizeData.Jump;
+        m_jumpAudio.clip = a_sizeData.m_clip;
         transform.localScale = transform.localScale * a_sizeData.Size;
     }
 
@@ -61,6 +63,7 @@ public class CharacterController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && m_currentState != EState.Jumping && m_isGrounded)
         {
             Debug.Log("State on Jump : " + m_currentState);
+            m_jumpAudio.Play();
             m_isGrounded = false;
             m_Rigidbody.AddForce(new Vector2(m_Rigidbody.velocity.x, m_jump));
             m_currentState = EState.Jumping;
@@ -83,6 +86,7 @@ public class CharacterController : MonoBehaviour
             m_currentState.Equals(EState.Dead);
             UIManager.ShowMissionFailUI();
             Time.timeScale = 0;
+            LevelManager.MissionFailed();
             Debug.Log("MISSION FAILED!!!!");
         }
     }
