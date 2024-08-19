@@ -50,10 +50,12 @@ MonoBehaviour:
     Speed: 7
     Jump: 300
     Size: 0.5
+    m_clip: {fileID: 8300000, guid: 307759aab4253db48ac789054d13b6cf, type: 3}
   - SizeState: 1
     Speed: 6
     Jump: 550
     Size: 2
+    m_clip: {fileID: 8300000, guid: d309c820738792840a30b6ae10000446, type: 3}
   m_characterList:
   - {fileID: 0}
   - {fileID: 0}

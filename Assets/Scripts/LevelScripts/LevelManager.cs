@@ -8,6 +8,10 @@ public class LevelManager : MonoBehaviour
     [SerializeField] string m_MissionCompletedTag_Large;
 
     [SerializeField] List<CharacterController> m_characterList;
+    [SerializeField] AudioSource m_MissionSound;
+
+    [SerializeField] AudioClip m_MissionCOmpleteclip;
+    [SerializeField] AudioClip m_MissionFailedclip;
 
     public static List<CharacterController> CharacterList {  get { return instance.m_characterList; } }
 
@@ -45,6 +49,9 @@ public class LevelManager : MonoBehaviour
             SceneChange.ReloadScene();
             UIManager.HideMissionFailUI();
         }
+
+        if (Input.GetKeyDown(KeyCode.P))
+            SkipLevel();
     }
 
     public static void CheckIfMissionCompleted()
@@ -55,10 +62,30 @@ public class LevelManager : MonoBehaviour
                 return;
         }
         Debug.Log("Mission Accomplished!");
+        instance.MissionCOmpleted();
+    }
+
+    public static void MissionFailed()
+    {
+        instance.m_MissionSound.Pause();
+        instance.m_MissionSound.clip = instance.m_MissionFailedclip;
+        instance.m_MissionSound.Play();
+    }
+
+    private void MissionCOmpleted()
+    {
+        m_MissionSound.Pause();
+        m_MissionSound.clip = m_MissionCOmpleteclip; 
+        m_MissionSound.Play();
         UIManager.ShowMissionCompleteUI();
-        foreach(CharacterController character in CharacterList)
+        foreach (CharacterController character in CharacterList)
             character.gameObject.SetActive(false);
         instance.StartCoroutine(instance.WaitToLoadNextScene());
+    }
+
+    public void SkipLevel()
+    {
+       MissionCOmpleted();
     }
 
     IEnumerator WaitToLoadNextScene()
