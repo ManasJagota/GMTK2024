@@ -9,6 +9,7 @@ public class LeverButton : MonoBehaviour
     [SerializeField] ELeverButtonType m_LeverButtonType;
 
     [SerializeField] GameObject m_GOLeverActionToPerformOn;
+    [SerializeField] AudioSource m_triggerAudio;
     private int m_count = 0;
 
     private void OnCollisionEnter2D(Collision2D a_other)
@@ -26,6 +27,7 @@ public class LeverButton : MonoBehaviour
                     m_GOLeverActionToPerformOn.GetComponent<WaypointMover>().enabled = true;
                 foreach (ProCamera2DShake Cam in LevelManager.instance.m_ShakeCamList)
                     Cam.Shake(Cam.ShakePresets[0]);
+                m_triggerAudio.Play();
             }
         }
     }
