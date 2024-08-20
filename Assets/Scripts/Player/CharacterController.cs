@@ -20,6 +20,7 @@ public class CharacterController : MonoBehaviour
     public bool m_isAccomplished;
     public bool m_isChangeSizeAvail = true;
 
+    private bool letJump = true;
 
     public Action<sizeState> StateChanged;
 
@@ -55,19 +56,25 @@ public class CharacterController : MonoBehaviour
         if (Input.GetAxis("Horizontal") != 0)
         {
             m_move = Input.GetAxis("Horizontal");
-            Debug.Log("State on Move : " + m_currentState + " MoveSpeed : " + m_move);
             m_Rigidbody.velocity = new Vector2(m_speed * m_move, m_Rigidbody.velocity.y);
             if(m_isGrounded == true)
                 m_currentState = EState.Moving;
         }
-        if (Input.GetButtonDown("Jump") && m_currentState != EState.Jumping && m_isGrounded)
+        if (Input.GetButtonDown("Jump") && m_currentState != EState.Jumping && m_isGrounded && letJump)
         {
-            Debug.Log("State on Jump : " + m_currentState);
             m_jumpAudio.Play();
             m_isGrounded = false;
+            letJump = false;
+            StartCoroutine(DelayToStartJump());
             m_Rigidbody.AddForce(new Vector2(m_Rigidbody.velocity.x, m_jump));
             m_currentState = EState.Jumping;
         }
+    }
+
+    IEnumerator DelayToStartJump()
+    {
+        yield return new WaitForSeconds(1f);
+        letJump = true;
     }
 
     private void OnCollisionEnter2D(Collision2D a_other)
