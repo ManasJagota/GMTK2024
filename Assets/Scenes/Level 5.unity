@@ -796,6 +796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big wall confined
       objectReference: {fileID: 0}
+    - target: {fileID: 7359393894046199579, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_TagString
+      value: Walls
+      objectReference: {fileID: 0}
     - target: {fileID: 7473763979925978638, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.5999758
@@ -17078,7 +17082,7 @@ GameObject:
   - component: {fileID: 371464307}
   m_Layer: 6
   m_Name: MovingPlatform (94)
-  m_TagString: Ground
+  m_TagString: Walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32483,15 +32487,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Size.y
-      value: 14
+      value: 7.3842354
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Offset.x
-      value: -0.61
+      value: -0.61000013
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Offset.y
-      value: 3.48
+      value: 6.787882
       objectReference: {fileID: 0}
     - target: {fileID: 7359393894046199579, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Name
@@ -37214,7 +37218,7 @@ GameObject:
   - component: {fileID: 829813787}
   m_Layer: 6
   m_Name: MovingPlatform (91)
-  m_TagString: Ground
+  m_TagString: Walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44385,7 +44389,7 @@ GameObject:
   - component: {fileID: 997832097}
   m_Layer: 6
   m_Name: MovingPlatform (95)
-  m_TagString: Ground
+  m_TagString: Walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49701,6 +49705,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: a5c73d195768e3648878b4275c63d94e, type: 3}
+    - target: {fileID: 3402705387052113563, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_TagString
+      value: Walls
+      objectReference: {fileID: 0}
     - target: {fileID: 3670955706305394550, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.599985
@@ -49769,6 +49777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big wall confined (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7359393894046199579, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_TagString
+      value: Walls
+      objectReference: {fileID: 0}
     - target: {fileID: 7473763979925978638, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.51
@@ -49781,6 +49793,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8ada5548e3ce71a49bc827213a604f15, type: 3}
+    - target: {fileID: 8126419870800505325, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_TagString
+      value: Walls
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6676135916422235675, guid: e9904beae75922a41ba889d48b321957, type: 3}
@@ -60653,7 +60669,7 @@ GameObject:
   - component: {fileID: 1367559371}
   m_Layer: 6
   m_Name: MovingPlatform (93)
-  m_TagString: Ground
+  m_TagString: Walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69468,7 +69484,7 @@ GameObject:
   - component: {fileID: 1565717474}
   m_Layer: 6
   m_Name: MovingPlatform (92)
-  m_TagString: Ground
+  m_TagString: Walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82585,15 +82601,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Size.y
-      value: 14
+      value: 0.91534424
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Offset.x
-      value: -0.61
+      value: -0.61000013
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Offset.y
-      value: 3.48
+      value: 9.782776
       objectReference: {fileID: 0}
     - target: {fileID: 7359393894046199579, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Name
@@ -82611,6 +82627,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8ada5548e3ce71a49bc827213a604f15, type: 3}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Size.x
+      value: 4.771118
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Size.y
+      value: 9.6658325
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.6144409
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Offset.y
+      value: 4.494171
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6676135916422235675, guid: e9904beae75922a41ba889d48b321957, type: 3}
@@ -84356,15 +84388,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Size.y
-      value: 14
+      value: 0.89993286
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Offset.x
-      value: -0.61
+      value: -0.61000013
       objectReference: {fileID: 0}
     - target: {fileID: 6822762954340675999, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Offset.y
-      value: 3.48
+      value: 9.808029
       objectReference: {fileID: 0}
     - target: {fileID: 7359393894046199579, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Name
@@ -84382,6 +84414,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8ada5548e3ce71a49bc827213a604f15, type: 3}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Size.x
+      value: 4.754883
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Size.y
+      value: 9.723053
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.6225586
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507713062641164271, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_Offset.y
+      value: 4.490402
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6676135916422235675, guid: e9904beae75922a41ba889d48b321957, type: 3}

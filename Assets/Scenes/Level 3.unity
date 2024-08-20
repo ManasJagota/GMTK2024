@@ -564,6 +564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big wall confined
       objectReference: {fileID: 0}
+    - target: {fileID: 7359393894046199579, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_TagString
+      value: Walls
+      objectReference: {fileID: 0}
     - target: {fileID: 7473763979925978638, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.5999758
@@ -18073,6 +18077,10 @@ PrefabInstance:
     - target: {fileID: 7359393894046199579, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_Name
       value: Big wall confined (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359393894046199579, guid: e9904beae75922a41ba889d48b321957, type: 3}
+      propertyPath: m_TagString
+      value: Walls
       objectReference: {fileID: 0}
     - target: {fileID: 7473763979925978638, guid: e9904beae75922a41ba889d48b321957, type: 3}
       propertyPath: m_LocalPosition.x
