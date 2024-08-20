@@ -73,7 +73,7 @@ public class CharacterController : MonoBehaviour
 
     IEnumerator DelayToStartJump()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.6f);
         letJump = true;
     }
 
